@@ -6,3 +6,7 @@ body {
   font-family: 'Baloo Tammudu 2',
      cursive;
 }
+.name {
+    max-width: 600px;
+    margin: auto;
+}
