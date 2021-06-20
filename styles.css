@@ -39,5 +39,25 @@ li{
 .inline{
     display: inline;
     padding: 0rem 1rem;
-  
+   
+}
+.nav{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+
+.nav .link{
+    color: black;
+}
+
+.nav .navlink{
+    text-align: right;
+}
+
+.nav-ul,.foot-ul{
+    text-align: right;
+}
+.foot{
+    background-color: var(--primary-color));
+    padding: 1.5rem;
 }
