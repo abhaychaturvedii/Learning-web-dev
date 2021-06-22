@@ -1,46 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 :root {
     --primary-color: #BFDBFE;
+    --off-white: #E5E7EB;
 }
 body {
  
-
-  font-family: 'Baloo Tammudu 2',
-     cursive;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
 }
 .name {
-    max-width: 350px;
+    max-width: 270px;
     display: block;
     margin: auto;
 }
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .link-pri {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: black;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .link-sec {
-    color: var(--primary-color);
-    border-radius: 0.5rem ;
-    border: 0.5px solid var(--primary-color);
     color: black;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  /* 1px solid var(--primary-color) */
+  display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem;
+  text-align: center;
 }
-li{
-    list-style-type: none;
+/* li{
+   
     
-}
+} */
 
-.inline{
+.inline-for-nav-footer{
     display: inline;
     padding: 0rem 0.5rem;
-   
+    list-style-type: none;
 }
 .nav{
     background-color: var(--primary-color);
@@ -65,4 +75,24 @@ li{
 }
 .nav .link-active{
     font-weight: bold;
+}
+.section {
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+   
+}
+.ow {
+    background-color: var(--off-white);
+}
+.container {
+    padding: 0rem 1rem;
+}
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+.p-class {
+    font-weight: lighter;
 }
