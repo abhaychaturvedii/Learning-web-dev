@@ -30,7 +30,9 @@ body {
     padding: 0.5rem;
     text-align: center;
 }
-
+.link-active{
+    font-weight: bold;
+}
 .link-sec {
     color: black;
   border-radius: 0.5rem;
